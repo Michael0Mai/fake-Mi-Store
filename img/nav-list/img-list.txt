@@ -1,0 +1,11 @@
+{
+{ "小米手机":[
+{"name":"小米 10S", "img_name":"img/nav-list/f9149ef3ba2c9025a4a21c98ae793808.webp", "price":"3299"},
+{"name":"小米 11", "img_name":"img/nav-list/963679eaf3937351e154600ab3448460.webp", "price":"3999"},
+{"name":"小米10至尊纪念版", "img_name":"img/nav-list/b11742a0be47f9d97bb6a13ea580018d.webp", "price":"5299"},
+{"name":"小米 10", "img_name":"img/nav-list/a4a76ee684e51f0ee531ef3dc7f0aeaf.webp", "price":"3399"},
+{"name":"小米10 青春版 5G", "img_name":"img/nav-list/3bf20f1df3f2e22c5b29ff07634f3c59.webp", "price":"2099"},
+{"name":"小米MIX Alpha", "img_name":"img/nav-list/5d19da60f9f62eb2aa5dcdbd7df19f0f.webp", "price":"19999"},
+]
+}
+}
