@@ -1,0 +1,466 @@
+div.home-main{
+    background-color: rgb(240, 240, 240);
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.container{
+    width: 1226px;
+    margin: auto;
+}
+
+div.home-brick-head{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+h2{
+    display: inline;
+    font-weight:lighter;
+    font-size: 28px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+div.flashsale-head div.flashsale-swiper-controls{
+    display: inline;
+    float: right;
+    padding-top: 15px;
+}
+
+div.flashsale-head div.flashsale-swiper-controls button{
+    display: inline-block;
+    border: 1px solid rgba(170, 170, 170, 0.726);
+    margin: 0px;
+    padding: 0px;
+    height: 28px;
+    width: 38px;
+    font-size: 18px;
+    bottom: 0px; 
+    text-align: center;
+    cursor:pointer;
+    user-select:none;
+    outline: none;
+}
+
+div.flashsale-swiper-controls button:hover {color: orangered;}
+
+div.flashsale-body{
+    display: grid;
+    grid-template-columns: 235px auto;
+    grid-template-rows:331px;
+    margin-top: 5px;
+}
+
+div.flashsale-body div.flashsale-countdown{
+    width: 235px;
+    height: 280px;
+    border-top: 1px solid orangered;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(206, 194, 194);
+}
+
+div.flashsale-body div.flashsale-countdown div.round{
+    color: orangered;
+}
+
+div.flashsale-body div.flashsale-countdown img{
+    padding: 20px;
+}
+
+div.flashsale-body div.flashsale-countdown div.desc{
+    color: gray;
+    font-size: 16px;
+}
+
+div.flashsale-body div.flashsale-countdown div.countdown{
+    padding-top: 25px;
+}
+
+div.flashsale-countdown div.countdown span.countdown-num{
+    color: white;
+    font-size: 24px;
+    background-color: rgb(63, 57, 1);
+    padding: 10px;
+}
+
+div.flashsale-list-swiper-container{
+    margin-left: 15px;
+    height: 331px;
+    width: 976px;
+    overflow: hidden;
+}
+
+div.flashsale-list-swiper{
+    position: relative;
+    height: 280px;
+    width: 3500px;
+    left: -15px;
+    transition: left 0.6s;
+}
+
+div.flashsale-list-swiper div.flashsale_box{
+    display:inline-block;
+    width: 233px;
+    height: 331;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-left: 15px;
+    white-space: nowrap;
+    background-color: white;
+    
+}
+
+div.flashsale-list-swiper div.flashsale_box img{
+    height: 155px;
+    width: 155px;
+}
+
+h3{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: black;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.desc{
+    font-size: 11px;
+    color: rgb(131, 131, 131);
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+p.price{
+    padding-top: 20px;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    transform: none;
+}
+
+p.price span{
+    color: orangered;
+}
+
+div.home-banner{
+    margin-top: 22px;
+    margin-bottom: 22px;    
+}
+
+div.home-brick-head div.more{
+    float: right;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+div.home-brick-head div.more a{
+    text-decoration: none;
+    color: black;
+}
+
+div#phone-brick-head div.more a span{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(175, 175, 175);
+    color: whitesmoke;
+    padding: 3px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 15px;
+    position: relative;
+    top: -3px;
+}
+
+div.home-brick-head div.more a:hover{color: tomato;}
+
+div.more a:hover span.more-link{
+    background-color: tomato;
+    color: white;
+}
+
+div.home-brick-body{
+    display: grid;
+    grid-template-columns: 233px auto;
+    grid-column-gap:15px;
+}
+
+div.home-brick-body-left a{
+    display: block;
+    height: 616px;
+}
+
+div.home-brick-body-right{
+    width: 1226-15-235 +"px";
+    display: grid;
+    grid-template-columns: repeat(4, 233px);
+    grid-template-rows: 300px 300px;
+    grid-column-gap:15px;
+    grid-row-gap:15px;
+}
+
+div.brick-item{
+    padding-top: 20px;
+    background-color: white;
+}
+
+div.home-brick-body-right div.brick-item a img{
+    height: 160px;
+    width: 160px;
+    transform: none;
+}
+
+div.home-brick-body-right div.brick-item a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+div.brick-left-item:hover{
+    box-shadow: 0 15px 30px rgba( 0 , 0 , 0 , 0.1 );
+}
+
+div.brick-left-item img:hover{
+    transform: none;
+    box-shadow: none;
+}
+
+div.home-brick-body-left :hover {
+    transform: translate(0px,-2px);
+    box-shadow: 0 15px 30px rgba( 0 , 0 , 0 , 0.1 );
+}
+
+div.home-brick-body-right :hover {
+    transform: translate(0px,-2px);
+    box-shadow: 0 15px 30px rgba( 0 , 0 , 0 , 0.1 );
+}
+
+div.home-brick-body-right :hover h3{
+    transform: translate(0px,-2px);
+    box-shadow: none;
+}
+
+div.home-brick-body-right :hover img{
+    transform: translate(0px,-2px);
+    box-shadow: none;
+}
+
+div.home-brick-body-right :hover a{
+    transform: translate(0px,-2px);
+    box-shadow: none;
+}
+
+div.home-brick-body-right :hover p.desc{
+    transform: translate(0px,-2px);
+    box-shadow: none;
+}
+
+div.home-brick-body-right :hover p.price{
+    transform: translate(0px,-2px);
+    box-shadow: none;
+}
+
+div.left-row-2{
+    display: grid;
+    width: 233px;
+    grid-template-rows: 300px 300px;
+    grid-row-gap:15px;
+
+}
+
+div.brick-left-item img{
+    width: 233px;
+}
+
+div.left-row-2 :hover {
+    transform: translate(0px,-2px);
+}
+
+div.brick-item-s{
+    padding: 0px;
+    display: grid;
+    grid-template-rows: 143px 143px;
+    background-color: rgba(255, 255, 255, 0);
+    grid-row-gap:15px;
+}
+
+div.brick-item-small{
+    background-color: white;
+    padding-top: 30px;
+}
+
+div.brick-item-small a div{
+    width: 130px;
+    float: left;
+    text-align: left;
+    padding-top: 10px;
+    white-space: normal;
+}
+
+div.brick-item-small a h3{
+    white-space: normal;
+}
+
+div.brick-item-small a p{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+div.home-brick-body-right div.brick-item-s div.brick-item-small a img{
+    width: 80px;
+    height: 80px;
+}
+
+div.brick-item-s :hover {
+    transform: translate(0px,-2px);
+}
+
+
+div.brick-item-s :hover div.brick-item-small{
+    transform: translate(0px,-2px);
+}
+
+div.brick-item-s :hover div.in-small-iterm{
+    transform: translate(0px,-2px);
+    box-shadow: none;
+}
+
+div.brick-item-s :hover h3{
+    transform: translate(0px,-2px);
+    box-shadow: none;
+}
+
+div.brick-item-s :hover img{
+    transform: translate(0px,-2px);
+    box-shadow: none;
+}
+
+div.home-brick-head div.more span{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+div.home-brick-head div.more >:first-child{
+    color: tomato;
+    border-bottom: tomato 2px solid;
+}
+
+
+div#video-brick-head div.more a span{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(175, 175, 175);
+    color: whitesmoke;
+    padding: 3px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 15px;
+    position: relative;
+    top: -3px;
+}
+
+div.video-brick-body{
+    display: grid;
+    grid-template-columns: repeat(4,295.25px);
+    grid-template-rows: 300;
+    grid-column-gap:15px; 
+}
+
+div.video-item{
+    background-color: rgb(253, 253, 253);
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+div.video-item a{
+    text-decoration: none;
+}
+
+div.video-item a img{
+    width: 296px;
+    height: 180px;
+}
+
+div.video-item a h3{
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+div.video-item a p.desc{
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+
+div.video{
+    display:none;
+    position: fixed;
+    width: 800px;
+    height: 550px;
+    padding-bottom: 60px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 6;
+    transition: display 1s;
+}
+
+div.video-head{
+    height: 60px;
+    background-color: white;
+}
+
+div.video-head span{
+    font-size: 18px;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+div.video-head button{
+    float: right;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border: none;
+}
+
+div.video-head button:hover{
+    background-color: tomato;
+    color: white;
+}
+
+div.video-item:hover{
+    transform: translate(0px,-2px);
+    box-shadow: 0 15px 30px rgba( 0 , 0 , 0 , 0.1 );
+}
+
+div#cover{
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.425);
+    left: 0px; 
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index:2;
+}

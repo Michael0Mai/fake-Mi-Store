@@ -1,0 +1,275 @@
+div.topbar-container{
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+}
+
+
+div.site-topbar, div.site-header{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    width: 1226px;
+    height: 40px;
+    margin: auto;  
+}
+
+div.topbar-nav{
+    height: 40px;
+    padding: 0px;
+    padding-left: 0px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+div.topbar-cart a, div.topbar-nav a, div.topbar-info a{ /* 链接的样式 */
+    display: inline-block;
+    padding: 0px;
+    padding-right: 3px;
+    padding-left: 3px;
+    text-align: center;
+    text-decoration:none;
+    color: rgb(170, 170, 170);
+    font-size: 10px;
+    line-height: 40px;
+}
+
+div.topbar-nav span.sep{  /* 分隔符的颜色 */
+    color:  rgb(66, 66, 66);
+}
+
+div.topbar-nav a:hover{color: rgb(253, 250, 250);} /* 鼠标放在上面变成文字白色 */
+
+a.topbar-download{
+    position: relative;
+}
+
+div.topbar-nav span.appcode { /* 隐藏的下载app 的二维码*/
+    position: absolute;
+    display: none;
+    min-width: 110px;
+    min-height: 110px;
+    margin-top: 0px;
+    padding: 5px;
+    left: -30px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+div.topbar-nav span.appcode img{
+    width : 90px;
+    height : 90px;
+    padding: 5px;
+}
+
+
+a.topbar-download:hover span.appcode{
+    display: block;
+    
+}
+
+div.topbar-cart, div.topbar-info{
+    height: 40px;
+    float : right;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    font-size: 12px;
+    background-color: rgb(95, 94, 94);
+}
+
+div.topbar-cart a{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div.topbar-cart:hover {
+    background-color: white;
+}
+
+div.topbar-cart:hover  a.cart-mini{
+    color: tomato;
+}
+
+div.topbar-cart{
+    position: relative;
+    margin: 0px;
+}
+
+div.topbar-cart a{
+    padding: 0px;
+    margin: 0px;
+}
+
+div.topbar-cart a img{
+    margin: 3px;
+    height: 20px;
+    margin-right: 3px;
+    padding-top: 0px;
+    vertical-align: middle;
+}
+div.topbar-cart a span{
+    padding: 1px;
+    margin-top: 10px;
+}
+
+span.cart-iterms{ /* 隐藏的购物车*/
+    position:absolute;
+    display: none;
+    margin-top: 11px;
+    left: -150px;
+    font-size: 13px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    min-width: 260px;
+    height: 95px;
+    line-height: 90px;
+    z-index: 2;
+}
+
+div.topbar-cart:hover  span.cart-iterms{
+    display: block;
+    
+}
+
+div.topbar-info{
+    background-color: rgb(49, 49, 49);
+}
+
+div.topbar-info a:hover{color: rgb(253, 250, 250);} /* 鼠标放在上面变成文字白色 */
+
+
+div.header-container{
+    width: 100%;
+}
+div.site-header{
+    position: relative;
+    height: 110px;
+}
+
+div.site-header div.header-logo{
+    position: absolute;
+    float:left;
+    margin-top: 8px;
+}
+
+div.site-header div.header-nav{
+    position: absolute;
+    float:left;
+    left: 220px;
+    margin-top: 10px;
+}
+
+div.site-header div.header-logo a{
+    text-decoration: none;
+}
+
+div.header-logo {
+    padding: 20px;
+    padding-left: 0px;
+}
+
+div.nav-list li.nav-item{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div.nav-list li.nav-item a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+div.iterm-children-container{
+    position: absolute;
+    display: none;
+    z-index: 2;
+    width: 100%;
+    border-top: 1px solid;
+    border-color: rgb(228, 228, 228);
+    background-color: white;
+    margin-top: 90px;
+    padding-top: 0px;
+}
+
+div.item-children{
+    width: 1226px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+div.list_iterm{
+    display: block;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    float: left;
+    font-size:13px;
+}
+
+div.list_iterm img{
+    padding: 0px;
+    width: 150px;
+}
+div.list_iterm p{
+    padding: 0px;
+    margin-block-end:0px;
+    
+}
+
+div.list_iterm p.price{
+    font-size:12px;
+    text-align: center;
+    color:orangered;
+    margin-block-end:0px;
+    margin-block-start:3px;
+}
+
+/*div.item-children:hover div.iterm-children-container{display: block;}*/
+
+div.header-search{
+    position: relative;
+    float: right;
+    width: 250px;
+    margin: 0px;
+    padding-top: 20px;
+    margin-top: 8px;
+}
+
+div.header-search form input {
+    width: 180px;
+    height: 42px;
+    padding-left: 13px;
+    border: 1px solid #dbdbdb;
+}
+
+div.header-search form button {
+    width: 50px;
+    height: 46px;
+    padding-left: 0px;
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+}
+
+div.header-search form button:hover  {
+    background-color: tomato;
+    border: 0px;
+}

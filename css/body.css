@@ -1,0 +1,14 @@
+body {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    min-width: 1226px;
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    margin:0px;
+}
+
+div, a, ul, p, h3{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+

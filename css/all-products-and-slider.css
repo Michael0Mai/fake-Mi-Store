@@ -1,0 +1,141 @@
+div.all-products-and-slider{
+    margin: auto;
+    position: relative;
+    width: 1226px;
+}
+
+div.all-products-and-slider div.slider-container{/*变化的背景*/
+    float: left;  /*最下面的用  float: left， 用来撑起父元素，否则父元素没有高度*/
+}
+
+div.slider-container button.slide-btn{/*按钮*/
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    top: 180px;
+    color: rgba(156, 156, 156, 0.507);
+    font-size: 30px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px;
+    outline: none;
+}
+
+div.slider-container button.slide-btn#btn-next{
+    right: 0px;
+}
+
+div.slider-container button.slide-btn#btn-before{
+    left: 235px;
+}
+
+div.slider-container button.slide-btn:hover {
+    background-color: rgba(80, 80, 80, 0.658);
+    color: rgba(255, 255, 255, 0.781);
+}
+
+div.all-products-list-container{/*左边的列表*/
+    position: absolute;
+    float: left;
+    width: 235px;
+    height: 460px;
+    background-color: rgba(143, 143, 143, 0.473);
+}
+
+div.all-products-list-container div.all-products-list{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.all-products-list-container div.all-products-list p{ /*左边的列表里的项*/
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0px;
+    color: white;
+    font-size: 16px;
+    line-height:40px;
+}
+
+div.all-products-list-container div.all-products-list span{ /*左边的列表里的项的箭头*/
+    float: right;
+}
+
+div.all-products-list p:hover {background-color: rgb(255, 102, 0);}
+
+div.sub-all-product-list { /*隐藏的列表 向右弹出*/
+    display:none;
+    position: absolute;
+    float: left;
+    left: 235px;
+    height: 458px;
+    background-color: white;
+    grid-auto-flow: column;
+    grid-template-rows:repeat(6, 76px) ;
+    padding: 0px;
+    box-shadow: 5px 0px 10px rgba(0,0,0,0.2);
+    border: rgba(209, 209, 209, 0.76) 1px solid;
+}
+
+div.sub-all-product-list p {
+    margin: 0px;
+    padding: 20px;
+    font-size: 16px; 
+}
+
+div.sub-all-product-list p img{
+    height: 30px;
+    vertical-align: middle;
+}
+
+div.sub-all-product-list p span{
+    vertical-align: middle;
+}
+
+div.all-products-sub-row{/*下面的一行*/
+    padding-top: 0px;
+    clear: both;
+    display: grid;
+    grid-template-columns: 235px auto;
+    grid-template-rows: auto;
+    grid-column-gap: 15px;
+    margin-bottom: 10px;
+}
+
+div.all-products-sub-row div.home-channel-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    background-color: rgba(41, 38, 1, 0.678);
+}
+
+div.all-products-sub-row div.home-promo-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 15px;
+}
+
+div.all-products-sub-row div.home-promo-list p{
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+div.all-products-sub-row div.home-promo-list img{
+    width: 100%;
+}
+
+div.home-channel-list a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(221, 221, 221);
+}
+
+div.home-channel-list a img{
+    width: 28px;
+    padding-top: 18px;
+}
+
+div.home-channel-list a:hover {color: white;}
